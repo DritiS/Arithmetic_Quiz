@@ -110,3 +110,78 @@ body{
     background-color: azure;
 
 }
+
+@media(max-width:800px){
+    .equation{
+        font-size: 40px;
+    }
+
+    .answer-options{
+        font-size: 40px;
+    } 
+}
+
+@media(max-width:600px){
+    .equation{
+        font-size: 30px;
+    }
+    
+    .answer-options{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:500px){
+    .equation{
+        font-size: 20px;
+    }
+    
+    .answer-options{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1024px){
+    .container li{
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media(max-width:931px){
+    .container li{
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media(max-width:841px){
+    .container li{
+        padding: 0 5px 0 5px;
+    }
+}
+
+@media(max-width:751px){
+    .container ul{
+        font-size: 15px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:594px){
+    .container ul{
+        font-size: 10px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:440px){
+    .container ul{
+        font-size: 5px;
+    }
+    .container h1{
+        font-size: 10px;
+    }
+}
